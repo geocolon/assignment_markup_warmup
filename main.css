@@ -12,23 +12,37 @@ nav {
 #nav-logo {
 
 }
-main {
-  width: 100%;
-  padding:1rem;
-  background-color: green;
-  margin:1rem;
-  color:white;
-  height: 1rem;
+aside {
+  width: 30%;
+  background-color: pink;
+  height: 600px;
+  float:left;
 }
 .left-side {
   background-color: red;
   width:300px;
   height: 600px;
+
 }
 .main-container {
-  margin: 1rem;
+  margin: auto;
   width:990px;
   height:auto;
+  float: right;
   margin: 0px auto;
   border: 2px gray solid;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.posty-post {
+  border: 0.5px black solid;
+  width: 20%;
+  padding:1rem;
+  margin: 0.5rem;
+  float:left;
+  color:white;
+  background-color: #355E3B;
 }
